@@ -1,6 +1,10 @@
+body {
+  background-image: url("Images/k.jpg");
+}
 * {
     box-sizing: border-box;
   }
+ 
   
   .menu {
     float: left;
@@ -37,4 +41,11 @@
     .menu, .main, .right {
       width: 100%;
     }
+  }
+  div.bag{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
   }
