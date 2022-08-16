@@ -17,4 +17,9 @@
 # Position Absolute and Relative
 # Finish the Project
 # More CSS Features
-#
+# ![plot](./Screenshots/Small Device.png)
+# .fileExtention:Screenshots/big.png
+<p Styles="align:center">
+  <img src="Screenshots/Small Device.png" width="350" title="hover text">
+  <img src="Screenshots/Medium.png" width="350" alt="accessibility text">
+</p>
