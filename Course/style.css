@@ -1,5 +1,5 @@
 .first {
     display: grid;
-    
+    background-color:blue;
     color: red;
 }
