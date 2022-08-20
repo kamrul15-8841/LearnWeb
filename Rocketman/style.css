@@ -1,0 +1,52 @@
+.nav{
+    display: inline-block;
+    
+}
+
+
+/* body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(192, 151, 151);
+    object-fit:cover;
+    
+    
+  }
+  .topnav a {
+    float: left;
+    color: #000000;
+    
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(194, 75, 75);
+  } */
+  
+  /* .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(69, 136, 69);
+  } */
+  
+  /* .topnav-right {
+    float: right;
+    color: #000000;
+    
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+   
+  }
+ .cover{
+    object-fit: contain;
+ } */
