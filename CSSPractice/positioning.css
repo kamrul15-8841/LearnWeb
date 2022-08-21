@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+/* relative and absolute position */
+/* .box{
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgb(3, 3, 3);
+    position: relative;
+  
+}
+.second-box{
+    width: 50%;
+    height: 50%;
+    border: 5px solid rgb(13, 102, 12);
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+} */
+/* Fixed position */
+.box{
+    background-color: rgb(221, 216, 216);
+    border-bottom: 1px solid black;
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
