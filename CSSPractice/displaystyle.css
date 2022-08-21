@@ -1,0 +1,21 @@
+.child-div{
+    display: inline-block;
+    border: 1px solid red;
+    padding: 20px;
+}
+.parent-div{
+ display: inline-block;
+ border: 1px solid gray;
+ width: 100%;
+ position: relative;
+}
+.left-div{
+    position: absolute;
+    left: 0;
+  
+}
+.right-div{
+    position: absolute;
+    right: 0;
+    
+}
