@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
     <form action="image.html">
         <label for="name">Name</label><br>
@@ -14,15 +16,15 @@
         <input type="text" id="id" value="8841"><br>
         <label for="address">Address</label><br>
         <input type="text" id="name" value="Kamrul"><br>
-       
+
     </form>
     <form action="">
         <input type="radio" name="laguages" id="html">
-    <label for="html">HTML</label><br>
-    <input type="radio" name="laguages" id="css">
-    <label for="css">CSS</label><br>
-    <input type="radio" name="laguages" id="javascript">
-    <label for="javascript">javascript</label>
+        <label for="html">HTML</label><br>
+        <input type="radio" name="laguages" id="css">
+        <label for="css">CSS</label><br>
+        <input type="radio" name="laguages" id="javascript">
+        <label for="javascript">javascript</label>
     </form>
 
     <form action=" ">
@@ -37,8 +39,29 @@
         <br>
         <input type="submit" value="Submit"><br>
     </form>
-    
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.</canvas>
+    <br id="br">
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 200);
+        ctx.moveTo(200, 0);
+        ctx.lineTo(0, 200);
+        ctx.moveTo(100, 0);
+        ctx.lineTo(100, 200);
+        ctx.moveTo(200, 100);
+        ctx.lineTo(0, 100);
+        ctx.stroke();
+        ctx.beginPath();
+        document.getElementById("br");
+        var cir = c.getContext("2d");
+        cir.arc(95, 50, 40, 0, 2 * Math.PI);
+        cir.stroke();
+    </script>
 
-    
+
 </body>
+
 </html>
